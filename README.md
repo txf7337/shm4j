@@ -11,7 +11,7 @@ need GLIBC_2.14 by jna(4.x)
 see [example](https://github.com/txf7337/shm4j/blob/master/example/README.md)
 
 ## SharedMemory.class
-it can only readable.can just use not create shm.where new SharedMemory
+it can only readable.can just use not create shm.when initialize SharedMemory
 
 if shared memory create by itself.will free shared memory when system exit
 
