@@ -1,6 +1,6 @@
-#example
+# example
 
-##SharedBuffer.class
+## SharedBuffer.class
 there have some properties at the end of shared memory
 
 readIndexOffset、writeIndexOffset、flag
@@ -17,8 +17,8 @@ readableSize <= writeIndex + MAX_SIZE * flag - readIndex
 writableSize <= readIndex + MAX_SIZE * (flag ^ 1) - writeIndex
 
 
-##Write.class
+## Write.class
 write something to shared memory
 
-##Read.class
+## Read.class
 will print value when have readableBytes
