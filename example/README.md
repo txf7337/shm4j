@@ -17,4 +17,8 @@ readableSize <= writeIndex + MAX_SIZE * flag - readIndex
 writableSize <= readIndex + MAX_SIZE * (flag ^ 1) - writeIndex
 
 
+##Write.class
+write something to shared memory
+
 ##Read.class
+will print value when have readableBytes
