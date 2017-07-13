@@ -12,6 +12,7 @@ see [example](https://github.com/txf7337/shm4j/blob/master/example/README.md)
 
 ## SharedMemory.class
 it can only readable.can not create shared memory
+
 if shared memory create by itself.will free shared memory when system exit
 
 ## alarm
