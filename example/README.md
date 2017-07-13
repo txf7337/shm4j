@@ -1,12 +1,10 @@
 # example
 
 ## SharedBuffer.class
-there have some properties at the end of shared memory
-
-readIndexOffset、writeIndexOffset、flag
+there have some properties at the end of shared memory. readIndexOffset、writeIndexOffset、flag
 
 readIndexOffset save the readIndex
-writeIndexOffset save the writeIndex
+writeIndexOffset save the writeIndex  
 
 if writeIndex < readIndex
     flag = 1
